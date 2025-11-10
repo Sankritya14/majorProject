@@ -24,7 +24,7 @@ export const DataPagination = ({
                     size="sm"
                     onClick={() => onPageChange(Math.max(1, page - 1))}
                 >
-                    Previos
+                    Previous
                 </Button>
                 <Button
                     disabled={page === totalPages || totalPages === 0}
